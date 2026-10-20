@@ -1,0 +1,15 @@
+{
+  "edition": "CRAN candidate 0.5.1",
+  "golden_source": "https://github.com/rds0001/solvency2-r",
+  "golden_source_version": "0.5.0",
+  "golden_source_commit": "14b25dc93f367c036abf9540dc2d16c310f30b56",
+  "adaptations": [
+    "Designated natural-person maintainer and regulatory citations",
+    "Package overview and CRAN documentation refinements",
+    "Bounded default test selection, exhaustive tests retained opt-in",
+    "Lossless reporting-resource bundles preserving every original JSON byte"
+  ],
+  "calculation_formulas_changed": false,
+  "regulatory_parameters_removed": false,
+  "reference_cases_removed": false
+}

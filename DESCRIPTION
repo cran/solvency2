@@ -1,0 +1,37 @@
+Package: solvency2
+Type: Package
+Title: Offline Solvency II Calculations and Regulatory Parameters
+Version: 0.5.1
+Authors@R: c(
+    person("Dimitrios", "Geromichalos", role = "cre",
+        email = "riskdatascience@web.de"),
+    person("RiskDataScience GmbH", role = c("aut", "cph")))
+Description: Native, offline components for insurance solvency calculations
+    under Solvency II, including valuation, technical provisions, market and
+    underwriting risks, capital aggregation, own funds, groups and archived
+    reporting checks. Provides explicit dated rule profiles, regulatory
+    parameters, correlation matrices, synthetic reference cases, local discount
+    curve adapters and traceable analyst overrides. Implements components of
+    Directive 2009/138/EC, European Parliament and Council (2009)
+    <https://eur-lex.europa.eu/eli/dir/2009/138/oj>, and Delegated Regulation
+    (EU) 2015/35, European Commission (2014)
+    <https://eur-lex.europa.eu/eli/reg_del/2015/35/oj>.
+    Users provide portfolio inputs, market observations and model results;
+    no network connection or 'Python' runtime is required.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: jsonlite, digest, gmp, Rmpfr, xml2
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+RoxygenNote: 7.3.1
+URL: https://github.com/rds0001/solvency2-r
+BugReports: https://github.com/rds0001/solvency2-r/issues
+NeedsCompilation: no
+Packaged: 2026-10-08 05:59:39 UTC; qwert123
+Author: Dimitrios Geromichalos [cre],
+  RiskDataScience GmbH [aut, cph]
+Maintainer: Dimitrios Geromichalos <riskdatascience@web.de>
+Repository: CRAN
+Date/Publication: 2026-10-20 14:10:02 UTC
